@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4EB6E2461DC3F15300A6C71B"
+               BlueprintIdentifier = "5B16C3A21DC3049D00E626DF"
                BuildableName = "hangman-joanchero.app"
                BlueprintName = "hangman-joanchero"
                ReferencedContainer = "container:hangman-joanchero.xcodeproj">
@@ -28,31 +28,11 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4EB6E25A1DC3F15400A6C71B"
-               BuildableName = "hangman-joancheroTests.xctest"
-               BlueprintName = "hangman-joancheroTests"
-               ReferencedContainer = "container:hangman-joanchero.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4EB6E2651DC3F15400A6C71B"
-               BuildableName = "hangman-joancheroUITests.xctest"
-               BlueprintName = "hangman-joancheroUITests"
-               ReferencedContainer = "container:hangman-joanchero.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4EB6E2461DC3F15300A6C71B"
+            BlueprintIdentifier = "5B16C3A21DC3049D00E626DF"
             BuildableName = "hangman-joanchero.app"
             BlueprintName = "hangman-joanchero"
             ReferencedContainer = "container:hangman-joanchero.xcodeproj">
@@ -75,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4EB6E2461DC3F15300A6C71B"
+            BlueprintIdentifier = "5B16C3A21DC3049D00E626DF"
             BuildableName = "hangman-joanchero.app"
             BlueprintName = "hangman-joanchero"
             ReferencedContainer = "container:hangman-joanchero.xcodeproj">
@@ -94,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4EB6E2461DC3F15300A6C71B"
+            BlueprintIdentifier = "5B16C3A21DC3049D00E626DF"
             BuildableName = "hangman-joanchero.app"
             BlueprintName = "hangman-joanchero"
             ReferencedContainer = "container:hangman-joanchero.xcodeproj">

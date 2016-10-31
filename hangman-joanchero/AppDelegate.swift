@@ -1,10 +1,15 @@
 //
 //  AppDelegate.swift
+//  iOSHangmanGame
+//
+//  Created by Foodie Fion on 10/27/16.
+//  Copyright © 2016 Fion Leong. All rights reserved.
+//
+//  AppDelegate.swift
 //  hangman-joanchero
 //
 //  Created by Joan sirma on 10/28/16.
 //  Copyright © 2016 Joan sirma. All rights reserved.
-//#12	0x000000010051d21f in main at /Applications/XAMPP/xamppfiles/htdocs/CS175/hangman-joanchero/hangman-joanchero/AppDelegate.swift:12
 
 
 import UIKit

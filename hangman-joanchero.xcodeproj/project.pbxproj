@@ -7,69 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E260C611DC6CE9300CD0EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB6E24E1DC3F15300A6C71B /* Main.storyboard */; };
-		4E5BD1F61DC3F83C0031BDFC /* wordlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E5BD1F51DC3F83C0031BDFC /* wordlist.txt */; };
-		4E5BD1F71DC3F9350031BDFC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EB6E2561DC3F15300A6C71B /* Info.plist */; };
-		4E5BD1FC1DC6B7D40031BDFC /* hintslist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E5BD1FB1DC6B7D40031BDFC /* hintslist.txt */; };
-		4E5BD1FD1DC6BABA0031BDFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6E24C1DC3F15300A6C71B /* ViewController.swift */; };
-		4EB6E24B1DC3F15300A6C71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6E24A1DC3F15300A6C71B /* AppDelegate.swift */; };
-		4EB6E2521DC3F15300A6C71B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB6E2511DC3F15300A6C71B /* Assets.xcassets */; };
-		4EB6E2551DC3F15300A6C71B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB6E2531DC3F15300A6C71B /* LaunchScreen.storyboard */; };
-		4EB6E2601DC3F15400A6C71B /* hangman_joancheroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6E25F1DC3F15400A6C71B /* hangman_joancheroTests.swift */; };
-		4EB6E26B1DC3F15400A6C71B /* hangman_joancheroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6E26A1DC3F15400A6C71B /* hangman_joancheroUITests.swift */; };
+		5B16C3A71DC3049D00E626DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16C3A61DC3049D00E626DF /* AppDelegate.swift */; };
+		5B16C3A91DC3049D00E626DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16C3A81DC3049D00E626DF /* ViewController.swift */; };
+		5B16C3AC1DC3049D00E626DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B16C3AA1DC3049D00E626DF /* Main.storyboard */; };
+		5B16C3AE1DC3049D00E626DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B16C3AD1DC3049D00E626DF /* Assets.xcassets */; };
+		5B16C3B11DC3049D00E626DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B16C3AF1DC3049D00E626DF /* LaunchScreen.storyboard */; };
+		5BF38E781DC47AF1002A9F2E /* wordsList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BF38E771DC47AF1002A9F2E /* wordsList.txt */; };
+		5BF38E7A1DC485D0002A9F2E /* hintsList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BF38E791DC485D0002A9F2E /* hintsList.txt */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4EB6E25C1DC3F15400A6C71B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4EB6E23F1DC3F15300A6C71B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EB6E2461DC3F15300A6C71B;
-			remoteInfo = "hangman-joanchero";
-		};
-		4EB6E2671DC3F15400A6C71B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4EB6E23F1DC3F15300A6C71B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EB6E2461DC3F15300A6C71B;
-			remoteInfo = "hangman-joanchero";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4E5BD1F51DC3F83C0031BDFC /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
-		4E5BD1FB1DC6B7D40031BDFC /* hintslist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hintslist.txt; sourceTree = "<group>"; };
-		4EB6E2471DC3F15300A6C71B /* hangman-joanchero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hangman-joanchero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EB6E24A1DC3F15300A6C71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EB6E24C1DC3F15300A6C71B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4EB6E24F1DC3F15300A6C71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4EB6E2511DC3F15300A6C71B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4EB6E2541DC3F15300A6C71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4EB6E2561DC3F15300A6C71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EB6E25B1DC3F15400A6C71B /* hangman-joancheroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hangman-joancheroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EB6E25F1DC3F15400A6C71B /* hangman_joancheroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangman_joancheroTests.swift; sourceTree = "<group>"; };
-		4EB6E2611DC3F15400A6C71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EB6E2661DC3F15400A6C71B /* hangman-joancheroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hangman-joancheroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EB6E26A1DC3F15400A6C71B /* hangman_joancheroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangman_joancheroUITests.swift; sourceTree = "<group>"; };
-		4EB6E26C1DC3F15400A6C71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B16C3A31DC3049D00E626DF /* hangman-joanchero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hangman-joanchero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B16C3A61DC3049D00E626DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B16C3A81DC3049D00E626DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B16C3AB1DC3049D00E626DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B16C3AD1DC3049D00E626DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B16C3B01DC3049D00E626DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B16C3B21DC3049D00E626DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF38E771DC47AF1002A9F2E /* wordsList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordsList.txt; sourceTree = "<group>"; };
+		5BF38E791DC485D0002A9F2E /* hintsList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hintsList.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4EB6E2441DC3F15300A6C71B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EB6E2581DC3F15400A6C71B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EB6E2631DC3F15400A6C71B /* Frameworks */ = {
+		5B16C3A01DC3049D00E626DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,142 +39,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4EB6E23E1DC3F15300A6C71B = {
+		5B16C39A1DC3049D00E626DF = {
 			isa = PBXGroup;
 			children = (
-				4EB6E2491DC3F15300A6C71B /* hangman-joanchero */,
-				4EB6E25E1DC3F15400A6C71B /* hangman-joancheroTests */,
-				4EB6E2691DC3F15400A6C71B /* hangman-joancheroUITests */,
-				4EB6E2481DC3F15300A6C71B /* Products */,
+				5B16C3A51DC3049D00E626DF /* hangman-joanchero */,
+				5B16C3A41DC3049D00E626DF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4EB6E2481DC3F15300A6C71B /* Products */ = {
+		5B16C3A41DC3049D00E626DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EB6E2471DC3F15300A6C71B /* hangman-joanchero.app */,
-				4EB6E25B1DC3F15400A6C71B /* hangman-joancheroTests.xctest */,
-				4EB6E2661DC3F15400A6C71B /* hangman-joancheroUITests.xctest */,
+				5B16C3A31DC3049D00E626DF /* hangman-joanchero.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4EB6E2491DC3F15300A6C71B /* hangman-joanchero */ = {
+		5B16C3A51DC3049D00E626DF /* hangman-joanchero */ = {
 			isa = PBXGroup;
 			children = (
-				4EB6E24A1DC3F15300A6C71B /* AppDelegate.swift */,
-				4EB6E24C1DC3F15300A6C71B /* ViewController.swift */,
-				4EB6E24E1DC3F15300A6C71B /* Main.storyboard */,
-				4EB6E2511DC3F15300A6C71B /* Assets.xcassets */,
-				4EB6E2531DC3F15300A6C71B /* LaunchScreen.storyboard */,
-				4EB6E2561DC3F15300A6C71B /* Info.plist */,
-				4E5BD1F51DC3F83C0031BDFC /* wordlist.txt */,
-				4E5BD1FB1DC6B7D40031BDFC /* hintslist.txt */,
+				5BF38E791DC485D0002A9F2E /* hintsList.txt */,
+				5BF38E771DC47AF1002A9F2E /* wordsList.txt */,
+				5B16C3A61DC3049D00E626DF /* AppDelegate.swift */,
+				5B16C3A81DC3049D00E626DF /* ViewController.swift */,
+				5B16C3AA1DC3049D00E626DF /* Main.storyboard */,
+				5B16C3AD1DC3049D00E626DF /* Assets.xcassets */,
+				5B16C3AF1DC3049D00E626DF /* LaunchScreen.storyboard */,
+				5B16C3B21DC3049D00E626DF /* Info.plist */,
 			);
-			path = "hangman-joanchero";
-			sourceTree = "<group>";
-		};
-		4EB6E25E1DC3F15400A6C71B /* hangman-joancheroTests */ = {
-			isa = PBXGroup;
-			children = (
-				4EB6E25F1DC3F15400A6C71B /* hangman_joancheroTests.swift */,
-				4EB6E2611DC3F15400A6C71B /* Info.plist */,
-			);
-			path = "hangman-joancheroTests";
-			sourceTree = "<group>";
-		};
-		4EB6E2691DC3F15400A6C71B /* hangman-joancheroUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4EB6E26A1DC3F15400A6C71B /* hangman_joancheroUITests.swift */,
-				4EB6E26C1DC3F15400A6C71B /* Info.plist */,
-			);
-			path = "hangman-joancheroUITests";
+			name = "hangman-joanchero";
+			path = iOSHangmanGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EB6E2461DC3F15300A6C71B /* hangman-joanchero */ = {
+		5B16C3A21DC3049D00E626DF /* hangman-joanchero */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EB6E26F1DC3F15400A6C71B /* Build configuration list for PBXNativeTarget "hangman-joanchero" */;
+			buildConfigurationList = 5B16C3B51DC3049D00E626DF /* Build configuration list for PBXNativeTarget "hangman-joanchero" */;
 			buildPhases = (
-				4EB6E2431DC3F15300A6C71B /* Sources */,
-				4EB6E2441DC3F15300A6C71B /* Frameworks */,
-				4EB6E2451DC3F15300A6C71B /* Resources */,
+				5B16C39F1DC3049D00E626DF /* Sources */,
+				5B16C3A01DC3049D00E626DF /* Frameworks */,
+				5B16C3A11DC3049D00E626DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "hangman-joanchero";
-			productName = "hangman-joanchero";
-			productReference = 4EB6E2471DC3F15300A6C71B /* hangman-joanchero.app */;
+			productName = iOSHangmanGame;
+			productReference = 5B16C3A31DC3049D00E626DF /* hangman-joanchero.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4EB6E25A1DC3F15400A6C71B /* hangman-joancheroTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EB6E2721DC3F15400A6C71B /* Build configuration list for PBXNativeTarget "hangman-joancheroTests" */;
-			buildPhases = (
-				4EB6E2571DC3F15400A6C71B /* Sources */,
-				4EB6E2581DC3F15400A6C71B /* Frameworks */,
-				4EB6E2591DC3F15400A6C71B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4EB6E25D1DC3F15400A6C71B /* PBXTargetDependency */,
-			);
-			name = "hangman-joancheroTests";
-			productName = "hangman-joancheroTests";
-			productReference = 4EB6E25B1DC3F15400A6C71B /* hangman-joancheroTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4EB6E2651DC3F15400A6C71B /* hangman-joancheroUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EB6E2751DC3F15400A6C71B /* Build configuration list for PBXNativeTarget "hangman-joancheroUITests" */;
-			buildPhases = (
-				4EB6E2621DC3F15400A6C71B /* Sources */,
-				4EB6E2631DC3F15400A6C71B /* Frameworks */,
-				4EB6E2641DC3F15400A6C71B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4EB6E2681DC3F15400A6C71B /* PBXTargetDependency */,
-			);
-			name = "hangman-joancheroUITests";
-			productName = "hangman-joancheroUITests";
-			productReference = 4EB6E2661DC3F15400A6C71B /* hangman-joancheroUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4EB6E23F1DC3F15300A6C71B /* Project object */ = {
+		5B16C39B1DC3049D00E626DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Joan sirma";
+				ORGANIZATIONNAME = "Fion Leong";
 				TargetAttributes = {
-					4EB6E2461DC3F15300A6C71B = {
+					5B16C3A21DC3049D00E626DF = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
-					};
-					4EB6E25A1DC3F15400A6C71B = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 4EB6E2461DC3F15300A6C71B;
-					};
-					4EB6E2651DC3F15400A6C71B = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 4EB6E2461DC3F15300A6C71B;
 					};
 				};
 			};
-			buildConfigurationList = 4EB6E2421DC3F15300A6C71B /* Build configuration list for PBXProject "hangman-joanchero" */;
+			buildConfigurationList = 5B16C39E1DC3049D00E626DF /* Build configuration list for PBXProject "hangman-joanchero" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,102 +115,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 4EB6E23E1DC3F15300A6C71B;
-			productRefGroup = 4EB6E2481DC3F15300A6C71B /* Products */;
+			mainGroup = 5B16C39A1DC3049D00E626DF;
+			productRefGroup = 5B16C3A41DC3049D00E626DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EB6E2461DC3F15300A6C71B /* hangman-joanchero */,
-				4EB6E25A1DC3F15400A6C71B /* hangman-joancheroTests */,
-				4EB6E2651DC3F15400A6C71B /* hangman-joancheroUITests */,
+				5B16C3A21DC3049D00E626DF /* hangman-joanchero */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4EB6E2451DC3F15300A6C71B /* Resources */ = {
+		5B16C3A11DC3049D00E626DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EB6E2551DC3F15300A6C71B /* LaunchScreen.storyboard in Resources */,
-				4EB6E2521DC3F15300A6C71B /* Assets.xcassets in Resources */,
-				4E5BD1F61DC3F83C0031BDFC /* wordlist.txt in Resources */,
-				4E260C611DC6CE9300CD0EA5 /* Main.storyboard in Resources */,
-				4E5BD1FC1DC6B7D40031BDFC /* hintslist.txt in Resources */,
-				4E5BD1F71DC3F9350031BDFC /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EB6E2591DC3F15400A6C71B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EB6E2641DC3F15400A6C71B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5B16C3B11DC3049D00E626DF /* LaunchScreen.storyboard in Resources */,
+				5BF38E7A1DC485D0002A9F2E /* hintsList.txt in Resources */,
+				5B16C3AE1DC3049D00E626DF /* Assets.xcassets in Resources */,
+				5BF38E781DC47AF1002A9F2E /* wordsList.txt in Resources */,
+				5B16C3AC1DC3049D00E626DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4EB6E2431DC3F15300A6C71B /* Sources */ = {
+		5B16C39F1DC3049D00E626DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E5BD1FD1DC6BABA0031BDFC /* ViewController.swift in Sources */,
-				4EB6E24B1DC3F15300A6C71B /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EB6E2571DC3F15400A6C71B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EB6E2601DC3F15400A6C71B /* hangman_joancheroTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EB6E2621DC3F15400A6C71B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EB6E26B1DC3F15400A6C71B /* hangman_joancheroUITests.swift in Sources */,
+				5B16C3A91DC3049D00E626DF /* ViewController.swift in Sources */,
+				5B16C3A71DC3049D00E626DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4EB6E25D1DC3F15400A6C71B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4EB6E2461DC3F15300A6C71B /* hangman-joanchero */;
-			targetProxy = 4EB6E25C1DC3F15400A6C71B /* PBXContainerItemProxy */;
-		};
-		4EB6E2681DC3F15400A6C71B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4EB6E2461DC3F15300A6C71B /* hangman-joanchero */;
-			targetProxy = 4EB6E2671DC3F15400A6C71B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		4EB6E24E1DC3F15300A6C71B /* Main.storyboard */ = {
+		5B16C3AA1DC3049D00E626DF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4EB6E24F1DC3F15300A6C71B /* Base */,
+				5B16C3AB1DC3049D00E626DF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4EB6E2531DC3F15300A6C71B /* LaunchScreen.storyboard */ = {
+		5B16C3AF1DC3049D00E626DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4EB6E2541DC3F15300A6C71B /* Base */,
+				5B16C3B01DC3049D00E626DF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -325,7 +172,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4EB6E26D1DC3F15400A6C71B /* Debug */ = {
+		5B16C3B31DC3049D00E626DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		4EB6E26E1DC3F15400A6C71B /* Release */ = {
+		5B16C3B41DC3049D00E626DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,124 +265,52 @@
 			};
 			name = Release;
 		};
-		4EB6E2701DC3F15400A6C71B /* Debug */ = {
+		5B16C3B61DC3049D00E626DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "hangman-joanchero/Info.plist";
+				INFOPLIST_FILE = iOSHangmanGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sjsu.j.sirma.hangman-joanchero";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "hangman-joanchero";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		4EB6E2711DC3F15400A6C71B /* Release */ = {
+		5B16C3B71DC3049D00E626DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "hangman-joanchero/Info.plist";
+				INFOPLIST_FILE = iOSHangmanGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sjsu.j.sirma.hangman-joanchero";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "hangman-joanchero";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		4EB6E2731DC3F15400A6C71B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "hangman-joancheroTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sjsu.j.sirma.hangman-joancheroTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hangman-joanchero.app/hangman-joanchero";
-			};
-			name = Debug;
-		};
-		4EB6E2741DC3F15400A6C71B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "hangman-joancheroTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sjsu.j.sirma.hangman-joancheroTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hangman-joanchero.app/hangman-joanchero";
-			};
-			name = Release;
-		};
-		4EB6E2761DC3F15400A6C71B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "hangman-joancheroUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sjsu.j.sirma.hangman-joancheroUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "hangman-joanchero";
-			};
-			name = Debug;
-		};
-		4EB6E2771DC3F15400A6C71B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = "hangman-joancheroUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sjsu.j.sirma.hangman-joancheroUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "hangman-joanchero";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EB6E2421DC3F15300A6C71B /* Build configuration list for PBXProject "hangman-joanchero" */ = {
+		5B16C39E1DC3049D00E626DF /* Build configuration list for PBXProject "hangman-joanchero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EB6E26D1DC3F15400A6C71B /* Debug */,
-				4EB6E26E1DC3F15400A6C71B /* Release */,
+				5B16C3B31DC3049D00E626DF /* Debug */,
+				5B16C3B41DC3049D00E626DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EB6E26F1DC3F15400A6C71B /* Build configuration list for PBXNativeTarget "hangman-joanchero" */ = {
+		5B16C3B51DC3049D00E626DF /* Build configuration list for PBXNativeTarget "hangman-joanchero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EB6E2701DC3F15400A6C71B /* Debug */,
-				4EB6E2711DC3F15400A6C71B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4EB6E2721DC3F15400A6C71B /* Build configuration list for PBXNativeTarget "hangman-joancheroTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EB6E2731DC3F15400A6C71B /* Debug */,
-				4EB6E2741DC3F15400A6C71B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4EB6E2751DC3F15400A6C71B /* Build configuration list for PBXNativeTarget "hangman-joancheroUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EB6E2761DC3F15400A6C71B /* Debug */,
-				4EB6E2771DC3F15400A6C71B /* Release */,
+				5B16C3B61DC3049D00E626DF /* Debug */,
+				5B16C3B71DC3049D00E626DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4EB6E23F1DC3F15300A6C71B /* Project object */;
+	rootObject = 5B16C39B1DC3049D00E626DF /* Project object */;
 }
